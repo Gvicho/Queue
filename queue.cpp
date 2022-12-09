@@ -46,7 +46,7 @@ template<typename T>T queue<T>::head(){
 	return (Head->Value);
 }
 
-
+// If we want to use other data type and not an int we should declear queue with them in this Temporary function
 void Temporary_function(){
 	queue<int> q;
 	q.push_back(5);
